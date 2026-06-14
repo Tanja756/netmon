@@ -19,9 +19,9 @@ from textual.widgets._data_table import RowKey
 from textual.coordinate import Coordinate
 from textual.timer import Timer
 
-from help_screen import HelpScreen
-from collectors import NetTrafficCollector, LogCollector, get_systemd_service
-from openvpn_monitor import OpenVPNMonitor
+from .help_screen import HelpScreen
+from .collectors import NetTrafficCollector, LogCollector, get_systemd_service
+from .openvpn_monitor import OpenVPNMonitor
 
 
 class NetMonitor(App):
