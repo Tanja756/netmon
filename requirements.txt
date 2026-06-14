@@ -1,0 +1,2 @@
+psutil>=5.9,<7
+textual>=8,<9
